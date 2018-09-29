@@ -1,0 +1,53 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        html {
+            font-size: 100%
+        }
+
+        body {
+            padding: 5%;
+            font: 300 1.25em/1.6 monospace;
+            background: #fff;
+            color: #000;
+        }
+
+        h1 {
+            font-family: "Helvetica Neue", sans-serif;
+            line-height: 1;
+            font-weight: 300;
+            margin-bottom: 1em;
+        }
+
+        #gameHint {
+            padding: 2em;
+            background: #eee;
+        }
+        #play{
+            float: right;
+            margin-right: 300px;
+            width: 100px;
+            height: 30px;
+            background: white;
+            text-align: center;
+            font: bolder;
+            text-transform: uppercase;
+            border: none;
+            -webkit-transition-duration: 0.4s; /* Safari */
+             transition-duration: 0.4s;
+        }
+        #play:hover{
+             background-color: rgb(44, 137, 170) ;
+            color:white;
+        }
+       #result{
+            padding: 2em;
+            background: #eee;
+            display: none;
+            margin-top: 10px;
+        }
+
+
